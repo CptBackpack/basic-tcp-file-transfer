@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{5FBF0211-DDFE-490D-B40B-8EF933DD161F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{8ADA811F-66A1-420B-9EE7-48B9229393A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Server", "TCP_Server\TCP_Server.csproj", "{EE10FF60-68C3-427E-AF2B-F7157273BC16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Client", "TCP_Client\TCP_Client.csproj", "{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE10FF60-68C3-427E-AF2B-F7157273BC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE10FF60-68C3-427E-AF2B-F7157273BC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE10FF60-68C3-427E-AF2B-F7157273BC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE10FF60-68C3-427E-AF2B-F7157273BC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE10FF60-68C3-427E-AF2B-F7157273BC16} = {8ADA811F-66A1-420B-9EE7-48B9229393A5}
+		{FC25BA40-B868-482D-8E9D-DE0E7DC1E9DC} = {5FBF0211-DDFE-490D-B40B-8EF933DD161F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD734F6E-ECBD-4910-8204-8FCD3669F491}
+	EndGlobalSection
+EndGlobal
